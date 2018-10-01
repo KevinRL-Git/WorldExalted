@@ -31,5 +31,18 @@ namespace Worldexalted
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void testToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            uInterfaceItem tmp = new uInterfaceItem();
+            GroupBox StrengthAtr = tmp.getAttributBox("Strength", 4);
+            grpAttribute.Controls.Add(StrengthAtr);
+            StrengthAtr.Location = new Point(10, 15);
+        }
     }
 }
